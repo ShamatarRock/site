@@ -1,0 +1,21 @@
+body {
+    font-family: monospace;
+    
+           }
+    ul{
+        font-family: Arial;
+       }
+
+li{
+    list-style: circle;
+}
+.list{
+    list-style:square;
+}
+#msg{
+    font-family:'Times New Roman', Times, serif;
+}
+.light-theme{
+    background: #0d8369;
+    color: #ffffff;
+}
