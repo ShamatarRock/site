@@ -19,3 +19,29 @@ li{
     background: #0d8369;
     color: #ffffff;
 }
+:root{
+
+    --green: #00ff00;
+    --white: #ffffff;
+    --black: #000000;
+
+}
+.light-theme{
+    --bg: var(--green);
+    fontColor: var(--black);
+}
+.dark-theme{
+    --bg: var(--black);
+    --fontColor: var(--green);
+}
+*{
+    color: var(--fontColor);
+ }
+ body{
+    background: var(--bg);
+ }
+
+ .btn{
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
